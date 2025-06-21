@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark almost black background */
+    color: #f0f0f0; /* Light text color for contrast */
+    text-align: center; /* Keeping existing text-align */
+}
+
+header {
+    background-color: #333333; /* Darker header for contrast with black background */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f0f0f0; /* Light nav links */
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffffff; /* Slightly brighter on hover */
+}
+
+section {
+    margin: 20px;
+    background-color: #2c2c2c; /* Slightly lighter dark background for sections */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); /* Darker shadow for dark aesthetic */
+    color: #f0f0f0; /* Ensure section text is visible */
+}
+
+section h2 {
+    color: #bb86fc; /* A pop of color that goes well with a dark theme (e.g., deep purple) */
+}
+
+footer {
+    background-color: #333333; /* Darker footer to match header */
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
